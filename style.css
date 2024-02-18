@@ -53,6 +53,7 @@ a {
   display: flex;
 }
 .col {
+
   min-height: 1px;
   width: 100%;
 }
@@ -113,7 +114,7 @@ a {
 .box {
   padding-right: 10px;
   padding-left: 10px;
-  border-left: 1px solid #83858c;
+ 
   position: relative;
 }
 .time-content,
@@ -123,9 +124,7 @@ a {
   justify-content: center;
   min-height: 142px;
 }
-.box:first-child {
-  border-left: none;
-}
+
 .box.list-content {
   width: 340px;
 }
@@ -147,6 +146,13 @@ a {
   width: 100%;
   transform: translateY(-50%);
   text-align: center;
+}
+.left-tabel-box {
+    width: 175px;
+    display: flex;
+}
+.left-tabel-box .box{
+    border-left: 1px solid #83858c;
 }
 /* table section area end */
 
